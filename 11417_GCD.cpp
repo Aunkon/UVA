@@ -7,23 +7,42 @@
 #include <stdio.h>
 const int maxRange = 501;
 int GCDArray[maxRange][maxRange];
+int Primes[maxRange];
 
 int MemSet()
 {
-    for(int i = 0; i<maxRange;i++ )
-    {
-        for(int j=0;j<maxRange;j++)
-        {
-            GCDArray[i][j] = 0;
-        }
-    }
-    return 0;
+
+	for (int i = 0; i < maxRange; i++)
+	{
+		Primes[i] = i;
+		for (int j = 0; j < maxRange; j++)
+		{
+			GCDArray[i][j] = 0;
+		}
+	}
+	return 0;
+}
+
+int PrimeSet()
+{
+	MemSet();
+	for (int i = 2; i < maxRange; i++)
+	{
+		if (Primes[i] == i)
+			for (int j = i * 2; j < maxRange; j += i)
+			{
+				Primes[j] = 0;
+			}
+	}
+	return 0;
 }
 
 int GCD(int k, int l)
 {
-    if(GCDArray[k][l]!=0)
-        return GCDArray[k][l];
+	if (Primes[k] == k && Primes[l] == l)
+		return GCDArray[k][l] = 1;
+	if (GCDArray[k][l] != 0)
+		return GCDArray[k][l];
 	int gcd = 1;
 	for (int i = 1; i <= k && i <= l; i++)
 	{
@@ -36,7 +55,7 @@ int GCD(int k, int l)
 
 int main()
 {
-    MemSet();
+	PrimeSet();
 	int n;
 	while (scanf("%d", &n) && n != 0)
 	{
