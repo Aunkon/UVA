@@ -1,10 +1,20 @@
-qghume -1827
-ylnlf 726
-xfir 1348
-vscxggb 1610
-kfnqdux -745
-fnf 1081
-zvsrtkjpr -1242
-pggxrpn -2301
-vystmwcy 414
-yyc 936
+        12        45    Bad Choice
+
+        31        32    Good Choice
+
+         1         1    Good Choice
+
+        44        20    Bad Choice
+
+      9999         9    Bad Choice
+
+         1     10000    Good Choice
+
+       333       222    Bad Choice
+
+      1000         1    Good Choice
+
+      6568         1    Good Choice
+
+      9876       567    Bad Choice
+

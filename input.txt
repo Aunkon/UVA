@@ -1,12 +1,10 @@
-10
-qghume ylnlf xfir vscxggb kfnqdux fnf zvsrtkjpr pggxrpn vystmwcy yyc
-qghume 1350 6 ylnlf vscxggb vystmwcy yyc vscxggb kfnqdux
-zvsrtkjpr 1805 1 yyc
-kfnqdux 756 4 zvsrtkjpr zvsrtkjpr ylnlf vystmwcy
-kfnqdux 439 1 vscxggb
-pggxrpn 1538 5 xfir yyc ylnlf vscxggb fnf
-yyc 1658 4 qghume pggxrpn zvsrtkjpr vscxggb
-zvsrtkjpr 1021 4 kfnqdux xfir qghume yyc
-pggxrpn 1573 2 xfir zvsrtkjpr
-qghume 1161 3 fnf pggxrpn fnf
-kfnqdux 31 6 qghume qghume ylnlf zvsrtkjpr qghume pggxrpn
+12 45
+31 32
+1 1
+44 20
+9999 9
+1 10000
+333 222
+1000 1
+6568 1
+9876 567
