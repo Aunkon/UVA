@@ -1,2 +1,2 @@
 
-        memset(Process, 0, sizeof(Process));
+    freopen("output.txt", "w", stdout);
