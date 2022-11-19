@@ -2,8 +2,6 @@
 /*#####       Sr. Software Engineer (Unity)         #####*/
 /*#####       Email:  waunkon@gmail.com             #####*/
 /*#####       Mobile No:  +88-01916-492926          #####*/
-// #include <iostream>
-// using namespace std;
 #include <stdio.h>
 int GCD(int x, int y)
 {
